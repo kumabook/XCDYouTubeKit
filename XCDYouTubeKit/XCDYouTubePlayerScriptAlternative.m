@@ -13,11 +13,18 @@
      (defined(__MAC_OS_X_VERSION_MIN_REQUIRED) && __MAC_OS_X_VERSION_MIN_REQUIRED >= __MAC_10_9)
 
 @interface XCDYouTubePlayerScript ()
-@property (nonatomic, assign) JSContext *context;
-@property (nonatomic, assign) JSValue *signatureFunction;
+@property (nonatomic, retain) JSContext *context;
+@property (nonatomic, retain) JSValue *signatureFunction;
 @end
 
 @implementation XCDYouTubePlayerScript
+
+- (void)dealloc
+{
+	_context = nil;
+	_signatureFunction = nil;
+}
+
 
 - (instancetype) initWithString:(NSString *)string
 {
