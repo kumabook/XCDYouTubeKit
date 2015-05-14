@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		679F40561B0461D30070602D /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FB52DF1918F89A00B2CBE6 /* JavaScriptCore.framework */; };
+		679F40581B0461E60070602D /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679F40571B0461E60070602D /* JavaScriptCore.framework */; };
 		C20D64E61A94B3DC000AE868 /* libXCDYouTubeKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2EDD2EC1805917900BEA32B /* libXCDYouTubeKit.a */; };
 		C2428AE5191C3C1400065504 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2428AE4191C3C1400065504 /* AppDelegate.m */; };
 		C2428AE8191C3C1400065504 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2428AE6191C3C1400065504 /* MainMenu.xib */; };
@@ -51,6 +53,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		679F40571B0461E60070602D /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		C2428AD0191C3C1400065504 /* XCDYouTubeKit OS X Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XCDYouTubeKit OS X Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2428AE3191C3C1400065504 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C2428AE4191C3C1400065504 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -104,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				679F40581B0461E60070602D /* JavaScriptCore.framework in Frameworks */,
 				C26231B5191D7E0600D23900 /* XCDYouTubeKit.framework in Frameworks */,
 				C2428B0C191C415300065504 /* AVKit.framework in Frameworks */,
 			);
@@ -113,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				679F40561B0461D30070602D /* JavaScriptCore.framework in Frameworks */,
 				C20D64E61A94B3DC000AE868 /* libXCDYouTubeKit.a in Frameworks */,
 				C27415E317F4D02E0026834B /* AVFoundation.framework in Frameworks */,
 				C27415A617F491230026834B /* CoreGraphics.framework in Frameworks */,
@@ -172,6 +177,7 @@
 		C27415A017F491230026834B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				679F40571B0461E60070602D /* JavaScriptCore.framework */,
 				C2EDD2EC1805917900BEA32B /* libXCDYouTubeKit.a */,
 				C2F0E59E1945065C00D8EBA8 /* XCDYouTubeKit.framework */,
 				C26231B4191D7E0600D23900 /* XCDYouTubeKit.framework */,
