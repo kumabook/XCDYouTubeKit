@@ -23,10 +23,10 @@
 		C24C162E18E9A139005E92E9 /* XCDYouTubeVideoOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C24C162D18E9A139005E92E9 /* XCDYouTubeVideoOperation.m */; };
 		C25308C518D7392500132734 /* XCDYouTubeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C25308C418D7392500132734 /* XCDYouTubeClient.m */; };
 		C25308C818D739EB00132734 /* XCDYouTubeVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = C25308C718D739EB00132734 /* XCDYouTubeVideo.m */; };
+		C2597EA31B0CB9920030E9F2 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C224EB641919241B0038186E /* JavaScriptCore.framework */; };
 		C2597EA61B0CE6D80030E9F2 /* XCDYouTubeLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C2597EA51B0CE6D70030E9F2 /* XCDYouTubeLogger.m */; };
 		C2597EA71B0CE6D80030E9F2 /* XCDYouTubeLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C2597EA51B0CE6D70030E9F2 /* XCDYouTubeLogger.m */; };
 		C2597EA81B0CE6D80030E9F2 /* XCDYouTubeLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C2597EA51B0CE6D70030E9F2 /* XCDYouTubeLogger.m */; };
-		C2597EA31B0CB9920030E9F2 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C224EB641919241B0038186E /* JavaScriptCore.framework */; };
 		C26231A7191D750200D23900 /* XCDYouTubeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C25308C418D7392500132734 /* XCDYouTubeClient.m */; };
 		C26231A8191D750600D23900 /* XCDYouTubePlayerScript.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FB52DD1918F88C00B2CBE6 /* XCDYouTubePlayerScript.m */; };
 		C26231A9191D750900D23900 /* XCDYouTubeVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = C25308C718D739EB00132734 /* XCDYouTubeVideo.m */; };
@@ -895,7 +895,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -948,7 +948,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1018,7 +1018,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
